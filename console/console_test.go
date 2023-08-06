@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/hubertat/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/console/prompt"
+	"github.com/hubertat/go-ethereum/core"
+	"github.com/hubertat/go-ethereum/eth"
+	"github.com/hubertat/go-ethereum/eth/ethconfig"
+	"github.com/hubertat/go-ethereum/internal/jsre"
+	"github.com/hubertat/go-ethereum/miner"
+	"github.com/hubertat/go-ethereum/node"
 )
 
 const (

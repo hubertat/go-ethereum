@@ -28,7 +28,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/hubertat/go-ethereum/log"
 )
 
 var (
@@ -550,7 +550,16 @@ func (c *Client) newMessage(method string, paramsIn ...interface{}) (*jsonrpcMes
 	if paramsIn != nil { // prevent sending "params":null
 		var err error
 		if len(paramsIn) == 1 {
-			paramsIn = paramsIn[0]
+			var singleParam interface{}
+			for _, p := range paramsIn {
+				singleParam = p
+			}
+			msg.Params, err = json.Marshal(singleParam)
+			if err != nil {
+				return nil, err
+			} else {
+				return msg, nil
+			}
 		}
 		if msg.Params, err = json.Marshal(paramsIn); err != nil {
 			return nil, err

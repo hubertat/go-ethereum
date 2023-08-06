@@ -26,9 +26,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/hubertat/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/crypto"
+	"github.com/hubertat/go-ethereum/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

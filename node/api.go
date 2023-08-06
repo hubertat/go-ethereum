@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/hubertat/go-ethereum/common/hexutil"
+	"github.com/hubertat/go-ethereum/crypto"
+	"github.com/hubertat/go-ethereum/internal/debug"
+	"github.com/hubertat/go-ethereum/log"
+	"github.com/hubertat/go-ethereum/p2p"
+	"github.com/hubertat/go-ethereum/p2p/enode"
+	"github.com/hubertat/go-ethereum/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

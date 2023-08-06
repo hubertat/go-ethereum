@@ -25,14 +25,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/hubertat/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/common/math"
+	"github.com/hubertat/go-ethereum/core/rawdb"
+	"github.com/hubertat/go-ethereum/core/state"
+	"github.com/hubertat/go-ethereum/core/types"
+	"github.com/hubertat/go-ethereum/crypto"
+	"github.com/hubertat/go-ethereum/params"
 )
 
 type TwoOperandTestcase struct {

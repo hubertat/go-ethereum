@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/common"
 	"golang.org/x/exp/slices"
 )
 

@@ -27,17 +27,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/hubertat/go-ethereum"
+	"github.com/hubertat/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/common/hexutil"
+	"github.com/hubertat/go-ethereum/common/math"
+	"github.com/hubertat/go-ethereum/consensus/misc/eip1559"
+	"github.com/hubertat/go-ethereum/core/state"
+	"github.com/hubertat/go-ethereum/core/types"
+	"github.com/hubertat/go-ethereum/eth/filters"
+	"github.com/hubertat/go-ethereum/internal/ethapi"
+	"github.com/hubertat/go-ethereum/rlp"
+	"github.com/hubertat/go-ethereum/rpc"
 )
 
 var (

@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/hubertat/go-ethereum/accounts"
+	"github.com/hubertat/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/crypto"
+	"github.com/hubertat/go-ethereum/event"
 	"golang.org/x/exp/slices"
 )
 

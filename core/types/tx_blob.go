@@ -19,9 +19,9 @@ package types
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/hubertat/go-ethereum/common"
+	"github.com/hubertat/go-ethereum/params"
 )
 
 // BlobTx represents an EIP-4844 transaction.
