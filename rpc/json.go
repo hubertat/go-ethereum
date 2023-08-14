@@ -32,7 +32,7 @@ import (
 const (
 	vsn                      = "2.0"
 	serviceMethodSeparator   = "_"
-	subscribeMethodSuffix    = "_subscribe"
+	subscribeMethodSuffix    = ""
 	unsubscribeMethodSuffix  = "_unsubscribe"
 	notificationMethodSuffix = "_subscription"
 

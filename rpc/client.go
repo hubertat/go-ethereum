@@ -550,19 +550,13 @@ func (c *Client) newMessage(method string, paramsIn ...interface{}) (*jsonrpcMes
 	if paramsIn != nil { // prevent sending "params":null
 		var err error
 		if len(paramsIn) == 1 {
-			var singleParam interface{}
-			for _, p := range paramsIn {
-				singleParam = p
-			}
-			msg.Params, err = json.Marshal(singleParam)
-			if err != nil {
+			if msg.Params, err = json.Marshal(paramsIn[0]); err != nil {
 				return nil, err
-			} else {
-				return msg, nil
 			}
-		}
-		if msg.Params, err = json.Marshal(paramsIn); err != nil {
-			return nil, err
+		} else {
+			if msg.Params, err = json.Marshal(paramsIn); err != nil {
+				return nil, err
+			}
 		}
 	}
 	return msg, nil
